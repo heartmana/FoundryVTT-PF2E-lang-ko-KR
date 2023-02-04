@@ -1,4 +1,4 @@
-# Foundryvtt-dnd5e-lang-ko-KR
+# Foundryvtt-PF2e-lang-ko-KR
 
 * **Foundry VTT 코어 호환버전** : v10 전반
 * **필요 시스템** : [D&D 5e 시스템](https://github.com/foundryvtt/dnd5e/)
