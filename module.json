@@ -1,8 +1,8 @@
 {
-	"id": "dnd5e-ko",
-	"name": "dnd5e-ko",
-	"title": "Translation: Korean [D&D 5e]",
-	"description": "D&D 5e 시스템의 한국어화 모듈입니다.",
+	"id": "pf2e-ko",
+	"name": "pf2e-ko",
+	"title": "Translation: Korean [pf2e ko]",
+	"description": "PF2e 시스템의 한국어화 모듈입니다.",
 	"version": "This is auto replaced",
 	"library": "false",
 	"manifestPlusVersion": "1.2.0",
@@ -31,7 +31,7 @@
 			}
 		]
 	  },
-	"system": "dnd5e",
+	"system": "pf2e",
 	"languages": 
 	[
 		{
