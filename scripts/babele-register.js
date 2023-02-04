@@ -1,22 +1,12 @@
 Hooks.once('init', () => {
-	game.settings.register("dnd5e-ko", "show-original-name", {
-		name: "컴펜디움 원어 병기",
-		hint: "컴펜디움 원본 명칭을 번역된 명칭 옆에 나란히 표시합니다. 예시) 화염구 Fireball",
-		scope: "world",
-		config: true,
-		default: false,
-		type: Boolean,
-		onChange: _ => window.location.reload()
-	});
-
-	if (typeof Babele !== 'undefined') {
+		if (typeof Babele !== 'undefined') {
 		Babele.get().register({
-			module: 'dnd5e-ko',
+			module: 'pf2e-ko',
 			lang: 'ko',
 			dir: 'localization/compendium/ko'
 		});
 
-		if (!game.settings.get("dnd5e-ko", "show-original-name")) return;
+		if (!game.settings.get("pf2e-ko", "show-original-name")) return;
 		TranslatedCompendium.prototype.translateOrigin = TranslatedCompendium.prototype.translate;
 		TranslatedCompendium.prototype.translate = function(data) {
 			let originalName = data.name;
